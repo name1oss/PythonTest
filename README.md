@@ -145,9 +145,9 @@
 ### **四、 实验中遇到的问题与解决方法**
 
 * **问题描述**:
-    在初次运行绘图脚本时，程序中断并抛出 `ModuleNotFoundError: No module named 'numpy'` 错误，如下图2所示。
+    在初次运行绘图脚本时，程序中断并抛出 `ModuleNotFoundError: No module named 'numpy'` 错误，如下图所示。
 
-    **图2：实验中遇到的错误**
+<img width="512" height="54" alt="Image" src="https://github.com/user-attachments/assets/e874f053-5359-45d5-8f21-8b18622e2bcc" />
 
 * **原因分析**:
     该错误信息明确指出，执行代码的Python环境中缺少名为 `numpy` 的模块。这是因为 `numpy` 和 `matplotlib` 并非Python标准库，需要手动安装才能使用。
